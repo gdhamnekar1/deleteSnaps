@@ -20,7 +20,7 @@ jobs:
       scriptType: pscore
       scriptLocation: inlineScript
       inlineScript: |
-        az login --service-principal --username $(c0f96883-c578-4dcf-9719-c5be3745307c) --password $(a49d5935-2fec-4130-b506-4328717462fa) --tenant $(6f79126d-0f7b-4f16-915a-b0f1125bbe4f)
+        az login --service-principal --username $(c0f96883-c578-4dcf-9719-c5be3745307c) --password $(OJY8Q~2nQCPDv2_RtwV-mcxZHL.GmowlFFWkibRo) --tenant $(6f79126d-0f7b-4f16-915a-b0f1125bbe4f)
 
   - task: AzureCLI@2
     displayName: 'List Snapshots'
